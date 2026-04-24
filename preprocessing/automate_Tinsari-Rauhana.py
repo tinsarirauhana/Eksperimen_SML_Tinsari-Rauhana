@@ -25,8 +25,8 @@ warnings.filterwarnings("ignore")
 # ============================================================
 # KONSTANTA
 # ============================================================
-RAW_DATA_PATH = "./heart_disease_raw/heart_raw.csv"
-OUTPUT_DIR    = "./heart_disease_preprocessing"
+RAW_DATA_PATH = "/Users/tinsarirauhana/Eksperimen_SML_Tinsari-Rauhana/heart_disease_raw/heart_cleveland_upload.csv"
+OUTPUT_DIR    = "/Users/tinsarirauhana/Eksperimen_SML_Tinsari-Rauhana/preprocessing/heart_disease_preprocessing"
 TRAIN_OUTPUT  = os.path.join(OUTPUT_DIR, "heart_train_preprocessed.csv")
 TEST_OUTPUT   = os.path.join(OUTPUT_DIR, "heart_test_preprocessed.csv")
 
